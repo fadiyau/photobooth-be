@@ -9,9 +9,6 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-<<<<<<< HEAD
-}
-=======
 }
 
 enum Role {
@@ -85,4 +82,4 @@ model Photo {
 
   @@index([sessionId])
 }
->>>>>>> c735869 (udh nyambung ke db)
+  
